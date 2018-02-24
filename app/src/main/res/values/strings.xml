@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">East GO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_navigation">Home</string>
+    <string name="orders_nagivation">Orders</string>
+    <string name="account_navigation">My Account</string>
 </resources>
