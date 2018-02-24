@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void createBottomNavigationItems() {
-        AHBottomNavigationItem mHome = new AHBottomNavigationItem("Home", R.drawable.ic_home_navigation);
-        AHBottomNavigationItem mOrders = new AHBottomNavigationItem("Orders", R.drawable.ic_orders_navigation);
-        AHBottomNavigationItem mAccount = new AHBottomNavigationItem("My Account", R.drawable.ic_account_navigation);
+        AHBottomNavigationItem mHome = new AHBottomNavigationItem(getString(R.string.home_navigation), R.drawable.ic_home_navigation);
+        AHBottomNavigationItem mOrders = new AHBottomNavigationItem(getString(R.string.orders_nagivation), R.drawable.ic_orders_navigation);
+        AHBottomNavigationItem mAccount = new AHBottomNavigationItem(getString(R.string.account_navigation), R.drawable.ic_account_navigation);
 
         mBottomNavigation.addItem(mHome);
         mBottomNavigation.addItem(mOrders);
